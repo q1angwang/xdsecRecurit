@@ -24,12 +24,7 @@ img{max-width:100%;}
 /****-----start-body----****/
 body{
 	background:url(../images/bg.jpg)  no-repeat center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
- 	background-size: cover;
- 	background-position: center;
- 	background-size: 100% 100%;
+background-size: cover;
 	font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .main{

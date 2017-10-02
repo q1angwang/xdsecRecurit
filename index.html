@@ -38,8 +38,8 @@
 
  <body>
 
- <div align="center" style=" position:fixed; left:0; top:0px; width:100%; height:100%;">
-     <canvas id="q" width="14400" height="9000"></canvas>
+ <div align="center" style=" background-size:cover;position:fixed; left:0; top:0px; width:100%; height:100%;">
+     <canvas id="q" width=100% height="900000"></canvas>
  </div>
 
 
@@ -74,7 +74,7 @@
 <a class="btn btn-primary btn-large theme-login" href="javascript:;">加入我们 </a>
 
 </div>
-<div class="theme-popover" style="width:600px" align="center">
+<div class="theme-popover" style="width: auto" align="center">
      <div class="theme-poptit" >
           <a href="javascript:;" title="关闭" class="close">×</a>
           <h3>XDSEC 招新</h3>
@@ -115,7 +115,7 @@
          $(document).ready(function() {
                 //设备宽度
                 var s = window.screen;
-                 var width = q.width = s.width;
+                var width = q.width = s.width;
                 var height = q.height;
                 var yPositions = Array(300).join(0).split('');
                  var ctx = q.getContext('2d');
